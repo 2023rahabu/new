@@ -5,13 +5,14 @@ void main() {
   int firstNumber = int.parse(stdin.readLineSync()!);
   print("enter second number here:");
   int secondNumber = int.parse(stdin.readLineSync()!);
-  String message = '''
+  String messagee = '''
 Select Operation
 1. Add
 2.Sub
 3.Mul
+4.Quot
 Your choice? ''';
-  print(message);
+  print(messagee);
   int userChoice = int.parse(stdin.readLineSync()!);
 
   if (userChoice == 1) {
